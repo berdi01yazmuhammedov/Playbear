@@ -98,13 +98,7 @@ function AppRoutes() {
      HELPERS
   ======================================================= */
 
-  function findActivity(id?: string) {
-    if (!id) {
-      return null;
-    }
-
-    return activities.find((activity) => activity.id === id) ?? null;
-  }
+  
 
   function upsertActivity(activity: Activity) {
     setActivities((current) => {
@@ -453,7 +447,6 @@ function MatchingEditRoute({
   activity,
   draft,
   setDraft,
-  clearDraft,
   isSavingDraft,
   onSave,
   onBack,

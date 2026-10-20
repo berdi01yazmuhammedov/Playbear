@@ -1,5 +1,4 @@
 import type { MatchingCard as MatchingCardType } from "../../features/matching/matching.types";
-import { MatchingMedia } from "./MatchingMedia";
 
 interface MatchingCardProps {
   card: MatchingCardType;

@@ -1,5 +1,4 @@
 import { useMemo, useState } from "react";
-import { Home } from "lucide-react";
 
 import type { Activity } from "../../types/activity";
 
@@ -17,7 +16,6 @@ import type {
   MatchingState,
 } from "../../features/matching/matching.types";
 
-import { GameShell } from "../game/GameShell";
 import { ProgressBar } from "../game/ProgressBar";
 import { ScoreBadge } from "../game/ScoreBadge";
 import { MatchingCard as Card } from "./MatchingCard";
